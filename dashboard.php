@@ -98,11 +98,11 @@ $active_tab = isset($_GET['tab']) ? $_GET['tab'] : 'list';
     <nav class="bg-input-bg shadow-md">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-16">
-                <div class="flex">
-                    <div class="flex-shrink-0 flex items-center">
-                        <h1 class="text-xl font-bold text-accent">Quiz App</h1>
-                    </div>
-                </div>
+            <div class="flex justify-center">
+        <h1 class="text-xl font-bold text-secondary flex items-center animate-pulse">
+            Go&nbsp;Quiz
+        </h1>
+    </div>
                 <div class="flex items-center">
                     <span class="text-sm text-gray-300 mr-4">Welcome, <?php echo htmlspecialchars($user_name); ?></span>
                     <a href="logout.php" class="text-sm text-red-400 hover:text-red-600">Logout</a>
